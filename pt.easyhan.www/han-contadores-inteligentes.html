@@ -39,6 +39,7 @@ h5 { font-size: 80%; padding: 0px; margin: 5px; }
            margin: 0 auto;
            width: 80%;
          }
+
 nav a, #copy  { 
         text-decoration: none;
       }
@@ -61,11 +62,10 @@ body {
 .top {
      text-align: center;
      margin: 0 auto;
-     padding: 1px;
-     background-color: #5499C7;
+     padding: 10px;
+     background-color: #5499C7; /* #3cb371 */
+     font-size: 200%;
      }
-
-.top small { font-size: 50% }
 
 .red {
      margin: 0 auto;
@@ -85,27 +85,33 @@ nav {
      padding: 0px;
      background-color: #333333;
      border-width: 1px;
-     border-color: #5499C7;
+     border-color: #5499C7; /* #3cb371 */
      border-style: solid;
      }
 
 .ft {
       width: 320px;
       border-width: 3px;
-      border-color: #5499C7;
+      border-color: #5499C7; /* #3cb371 */
       border-style: solid;
       border-radius: 20px;
-      background-color: #5499C7;
+      background-color: #5499C7; /* #3cb371 */
     }
+
+.footer {font-size: 70% }
 
 .discord {text-align: center}
 
 @media only screen and (min-width: 600px) {
     .ft { width: 500px }
-    h1, .top { font-size: 200% }
-    nav, nav a, body, p { font-size: 140% }
+    h1 { font-size: 200% }
     h2 { font-size: 170% }
-    .top small { font-size: 50% }
+    body { font-size: 120% }
+    p { font-size: 130% }
+    nav, nav a { font-size: 120% }
+    .top {font-size: 230%; padding: 10px; }
+    .footer {font-size: 90% }
+    .nav { padding: 10px; margin: 10px; }
     }
 
 </style>
@@ -127,9 +133,9 @@ nav {
 
 <body>
 
-<div class="top"><h1>
-<a style="text-decoration: none;" 
-href="./">EASY HAN</a><br></h1></div>
+<div class="top">
+<a style="text-decoration: none;" href="./">EASY HAN</a>
+</div>
 <br>
 
 
@@ -674,6 +680,7 @@ Contactos
 
 
 
+
 <br>
 
 <nav style="border-color: #3cb371 !important">
@@ -704,7 +711,7 @@ Wmbus
 <small>
 <a id="copy" target="_blank" href="https://ssn.pt/?h">© ssn.pt </a>
 <br><br>
-<span style="font-size: 70%">
+<span class="footer">
 | Easy HAN ® Portugal | Last Update: 21 January 2025 |
 <br>
 | Home Area Network | IoT Smart Devices | 
