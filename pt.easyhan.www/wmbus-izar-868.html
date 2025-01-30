@@ -40,17 +40,26 @@ h5 { font-size: 80%; padding: 0px; margin: 5px; }
            width: 80%;
          }
 
-nav a, #copy  { 
+#copy {
+      text-decoration: none;
+      }
+
+nav a { 
         text-decoration: none;
       }
 
-nav li {
-         display: inline;
-         padding-left: 5px;
-         paddin-right: 5px;
-       }
+nav ul {padding: 0px;}
 
-nav ul { padding: 0px; margin: 5px; }
+nav li {
+        list-style: none;
+        display: inline-block;
+	border-width: 2px;
+	border-color: #3cb371;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 7px;
+        margin: 7px;
+       }
 
 body {
        background-color: #333333;
@@ -84,9 +93,6 @@ nav {
      margin: 0 auto;
      padding: 0px;
      background-color: #333333;
-     border-width: 1px;
-     border-color: #3cb371;
-     border-style: solid;
      }
 
 .ft {
@@ -98,8 +104,6 @@ nav {
     }
 
 .footer {font-size: 70% }
-
-.discord {text-align: center}
 
 @media only screen and (min-width: 600px) {
     .ft { width: 500px }
@@ -262,43 +266,29 @@ Save Water
 
 
 
-<nav style="border-color: #5499C7 !important">
-
+<nav>
 <ul>
-<li>|</li>
 
 
-
-<li><a href="./" 
- >
-Início
-</a></li>
-
-<li>|</li>
+<li style="border-color: #5499C7 !important">
+<a href="./" 
+ >Início</a></li>
 
 
-<li><a href="han-contadores-inteligentes.html" 
- >
-HAN
-</a></li>
-
-<li>|</li>
+<li style="border-color: #5499C7 !important">
+<a href="han-contadores-inteligentes.html" 
+ >HAN</a></li>
 
 
-<li><a href="comprar.html" 
- >
-Comprar
-</a></li>
-
-<li>|</li>
+<li style="border-color: #5499C7 !important">
+<a href="comprar.html" 
+ >Comprar</a></li>
 
 
-<li><a href="contactos.html" 
- >
-Contactos
-</a></li>
+<li style="border-color: #5499C7 !important">
+<a href="contactos.html" 
+ >Contactos</a></li>
 
-<li>|</li>
 
 
 </ul>
@@ -308,35 +298,31 @@ Contactos
 
 
 
-<br>
-<nav style="border-color: #3cb371 !important">
-
+<nav>
 <ul>
-<li>|</li>
 
 
 
-<li><a href="live-data.html" 
- >
-Live Data
-</a></li>
-
-<li>|</li>
+<li style="border-color: #3cb371 !important">
+<a href="live-data.html" 
+ >Live Data</a>
+</li>
 
 
-<li><a href="wmbus-izar-868.html" 
+
+<li style="border-color: #3cb371 !important">
+<a href="wmbus-izar-868.html" 
  
 style="color: gold"
- >
-Wmbus
-</a></li>
+ >Wmbus</a>
+</li>
 
-<li>|</li>
 
 
 </ul>
 
 </nav>
+
 
 
 
