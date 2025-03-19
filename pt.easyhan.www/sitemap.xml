@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://easyhan.pt/comprar.html</loc>
-<lastmod>2025-03-16T16:49:40+00:00</lastmod>
+<lastmod>2025-03-19T20:18:30+00:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/contactos.html</loc>
@@ -35,6 +35,10 @@
 <url>
 <loc>https://easyhan.pt/live-data.html</loc>
 <lastmod>2025-02-27T22:40:33+00:00</lastmod>
+</url>
+<url>
+<loc>https://easyhan.pt/makers.html</loc>
+<lastmod>2025-03-19T17:42:25+00:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/pulse-counter.html</loc>
