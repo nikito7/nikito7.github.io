@@ -1,0 +1,36 @@
+Só esp32. Verificar o address da vossa partição ota
+flashApp, app,  ota_1,   0x260000, 0x0A0000,
+
+Source: https://github.com/meshtastic/firmware-ota-wifi
+
+# 1
+
+O primeiro passo:
+Flashar partição OTA
+
+esptool -b 460800 write_flash 0x260000 ota.bin
+Flashar a ota.bin só via serial
+
+# 2
+
+Update da firmware principal via OTA wifi
+
+Manter o ping em paralelo. 
+- ping 10.1.0.240 (ip atual)
+- ping 10.1.0.40 (novo ip)
+Adaptar ao vosso caso
+
+# 2.1
+
+meshtastic --host 10.1.0.240 --reboot-ota
+
+Geralmente não aceita à primeira. Confirmar com o ping.
+
+Quando o novo ip responder:
+
+python espota.py -i 10.1.0.40 -f firmware.bin
+
+# END
+
+
+
