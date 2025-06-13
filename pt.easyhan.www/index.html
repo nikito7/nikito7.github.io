@@ -28,40 +28,6 @@
 
 <style>
 
-h1, h2, a, a:link { color: #ffffff }
-
-body, p { font-size: 100% }
-
-h2 { font-size: 120% }
-
-h5 { font-size: 80%; padding: 0px; margin: 5px; }
-
-.content {
-           margin: 0 auto;
-           width: 80%;
-         }
-
-.copy {
-      text-decoration: none;
-      }
-
-nav a { 
-        text-decoration: none;
-      }
-
-nav ul {padding: 0px;}
-
-nav li {
-        list-style: none;
-        display: inline-block;
-	border-width: 2px;
-	border-color: #5499C7; /* #3cb371 */
-	border-style: solid;
-	border-radius: 5px;
-	padding: 7px;
-        margin: 7px;
-       }
-
 body {
        background-color: #333333;
        color: #ffffff;
@@ -69,6 +35,17 @@ body {
        padding: 0px;
        max-width: 800px;
      }
+
+body, p { font-size: 100% }
+
+h1, h2, a, a:link { color: #ffffff }
+h2 { font-size: 120% }
+h5 { font-size: 80%; padding: 0px; margin: 5px; }
+
+.content {
+           margin: 0 auto;
+           width: 80%;
+         }
 
 .top {
      text-align: center;
@@ -87,23 +64,16 @@ body {
      padding-right: 5px;
      }
 
-.red {
-     margin: 0 auto;
-     padding: 10px;
-     border: 1px red solid;
-     }
-
 .orange { 
      margin: 0 auto;
      padding: 10px; border: 
      1px orange solid;
      }
 
-nav {
-     text-align: center;
+.red {
      margin: 0 auto;
-     padding: 0px;
-     background-color: #333333;
+     padding: 10px;
+     border: 1px red solid;
      }
 
 .ft {
@@ -115,22 +85,61 @@ nav {
       background-color: #5499C7; /* #3cb371 */
     }
 
+nav a { 
+        text-decoration: none;
+      }
+
+nav ul {padding: 0px;}
+
+nav li {
+        list-style: none;
+        display: inline-block;
+	border-width: 2px;
+	border-color: #5499C7; /* #3cb371 */
+	border-style: solid;
+	border-radius: 5px;
+	padding: 7px;
+        margin: 7px;
+       }
+
+nav {
+     text-align: center;
+     margin: 0 auto;
+     padding: 0px;
+     background-color: #333333;
+     }
+
+.copy {
+      text-decoration: none;
+      }
+
+
 .footer {
          font-size: 70%;
          text-decoration: none;
         }
 
 @media only screen and (min-width: 600px) {
+
     .ft { width: 500px }
+
     h1 { font-size: 200% }
     h2 { font-size: 170% }
     body { font-size: 120% }
     p { font-size: 130% }
     nav, nav a { font-size: 120% }
-    .top {font-size: 230%; padding: 10px; }
+
+    .top {
+         background-size: 60px 60px;
+         font-size: 230%;
+         padding: 10px;
+         }
+
     .footer {font-size: 90% }
     .nav { padding: 10px; margin: 10px; }
-    }
+
+/* media */
+}
 
 </style>
 </head>
@@ -241,15 +250,15 @@ nav {
 
 
 <li style="border-color: #5499C7 !important">
-<a id="nav-comprar" href="comprar.html" 
-
->Comprar</a></li>
-
-
-<li style="border-color: #5499C7 !important">
 <a id="nav-cloud" href="cloud.html" 
 
 >Cloud</a></li>
+
+
+<li style="border-color: #5499C7 !important">
+<a id="nav-comprar" href="comprar.html" 
+
+>Comprar</a></li>
 
 
 <li style="border-color: #5499C7 !important">
@@ -279,15 +288,15 @@ nav {
 
 
 <li style="border-color: #3cb371 !important">
-<a id="nav-green-live-data" href="live-data.html" 
- >Live Data</a>
+<a id="nav-green-wmbus" href="wmbus-izar-868.html" 
+ >Izar Wmbus</a>
 </li>
 
 
 
 <li style="border-color: #3cb371 !important">
-<a id="nav-green-wmbus" href="wmbus-izar-868.html" 
- >Izar Wmbus</a>
+<a id="nav-green-live-data" href="live-data.html" 
+ >Live Data</a>
 </li>
 
 
