@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://easyhan.pt/aliexpress.html</loc>
-<lastmod>2025-03-28T19:24:58+00:00</lastmod>
-</url>
-<url>
 <loc>https://easyhan.pt/cloud.html</loc>
-<lastmod>2025-06-15T14:48:36+01:00</lastmod>
+<lastmod>2025-06-19T10:24:02+01:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/comprar.html</loc>
-<lastmod>2025-06-12T18:59:27+01:00</lastmod>
+<lastmod>2025-06-20T16:43:59+01:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/contactos.html</loc>
@@ -26,7 +22,7 @@
 </url>
 <url>
 <loc>https://easyhan.pt/ethernet.html</loc>
-<lastmod>2025-06-11T16:26:57+01:00</lastmod>
+<lastmod>2025-06-20T16:45:34+01:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/galeria.html</loc>
@@ -38,7 +34,7 @@
 </url>
 <url>
 <loc>https://easyhan.pt/</loc>
-<lastmod>2025-06-18T13:40:50+01:00</lastmod>
+<lastmod>2025-06-20T10:47:25+01:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/live-data-environment.html</loc>
@@ -62,6 +58,6 @@
 </url>
 <url>
 <loc>https://easyhan.pt/wmbus-izar-868.html</loc>
-<lastmod>2025-06-17T12:14:45+01:00</lastmod>
+<lastmod>2025-06-20T16:44:34+01:00</lastmod>
 </url>
 </urlset>
