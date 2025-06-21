@@ -28,10 +28,10 @@ sleep 1
 ls -a
 
 echo ""; echo "*** update files ***"
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/chartjs/charts.html
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/chartjs/charts.min.js
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/chartjs/voltage.html
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/chartjs/voltage.min.js
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/chartjs/charts.html
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/chartjs/charts.min.js
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/chartjs/voltage.html
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/chartjs/voltage.min.js
 #
 wget -q https://github.com/nikito7/easyhan/raw/dev/V2/eb3-script.js
 #
