@@ -28,16 +28,16 @@ delete charts.min.js
 ls
 
 echo ""; echo "*** update files ***"
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/chartjs/charts.html
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/chartjs/charts.min.js
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/chartjs/voltage.html
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/chartjs/voltage.min.js
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/chartjs/charts.html
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/chartjs/charts.min.js
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/chartjs/voltage.html
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/chartjs/voltage.min.js
 #
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/eb1-script.js
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/eb3-script.js
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/eb1-script.js
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/eb3-script.js
 #
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/eb1-discovery-EB1.txt
-wget -q https://github.com/nikito7/easyhan/raw/dev/edpbox/eb3-discovery-EB3.txt
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/eb1-discovery-EB1.txt
+wget -q https://github.com/nikito7/easyhan/raw/dev/V1/eb3-discovery-EB3.txt
 #
 echo ""; echo "*** fix files ***"
 mv eb1-discovery-EB1.txt discovery-EB1.txt
