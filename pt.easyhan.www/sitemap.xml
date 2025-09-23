@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://easyhan.pt/comprar.html</loc>
-<lastmod>2025-09-23T12:18:19+01:00</lastmod>
+<lastmod>2025-09-23T20:06:48+01:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/contacts.html</loc>
-<lastmod>2025-09-19T17:28:40+01:00</lastmod>
+<lastmod>2025-09-23T20:08:42+01:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/esp32-series.html</loc>
@@ -46,7 +46,7 @@
 </url>
 <url>
 <loc>https://easyhan.pt/pulse-counter.html</loc>
-<lastmod>2025-07-06T04:09:56+01:00</lastmod>
+<lastmod>2025-09-23T20:17:25+01:00</lastmod>
 </url>
 <url>
 <loc>https://easyhan.pt/smart-home.html</loc>
@@ -58,6 +58,6 @@
 </url>
 <url>
 <loc>https://easyhan.pt/wmbus-izar-868.html</loc>
-<lastmod>2025-09-11T10:35:55+01:00</lastmod>
+<lastmod>2025-09-23T20:18:17+01:00</lastmod>
 </url>
 </urlset>
